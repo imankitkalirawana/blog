@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+
+<head>
+    <meta charset="utf-8">
+    <title>imankitkalirawana</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google Font Link for Icons -->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+    <link rel="stylesheet" href="https://pro.Fontawesome.com/releases/v6.0.0-beta3/css/all.css">
+    <script src="js/common.js" defer></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+
+    <link rel="stylesheet" href="css/theme.css">
+    <link rel="stylesheet" href="css/c-bootstrap.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/single.css">
+    <script src="/js/script.js"></script>
+
+</head>
+
+<body>
+    <!--* Detachable header -->
+
+    <div id="head-container">
+        <header id="header-scroll">
+            <div class="header">
+                <div class="header-left">
+                    <div class="header-logo">
+                        <i class="fa-duotone fa-code"></i>
+                        <div class="brand-text">
+                            <span class="text-1">Divinely</span>
+                            <span class="text-2">Developers</span>
+                        </div>
+                    </div>
+                    <ul class="header-menu hide-header">
+                        <li class="menu-item"><a href="#">Home</a></li>
+                        <li class="menu-item"><a href="#">About</a></li>
+                        <li class="menu-item"><a href="#">Skills</a></li>
+                        <li class="menu-item"><a href="#">Contact</a></li>
+                        <li class="menu-item">
+                            <span>Theme</span>
+                            <div class="theme-dropdown">
+                                <span id="light-theme-toggle-btn"><i class="fa-regular fa-check"></i> Light</span>
+                                <span id="dark-theme-toggle-btn"><i class="fa-regular fa-check"></i> Dark</span>
+                            </div>
+                        </li>
+
+                    </ul>
+                </div>
+                <div class="header-right">
+                    <div class="login-register hide-header">
+                        <a href="#" class="btn btn-1">Create an account</a>
+                        <a href="#" class="btn btn-2">Login</a>
+                    </div>
+                    <button class="header-menu-open" id="header-menu-open">
+                        <i class="fa-duotone fa-bars-staggered"></i>
+                    </button>
+                </div>
+            </div>
+        </header>
+    </div>
+
+    <div class="header-side" id="header-side">
+        <div class="header-side-top">
+            <div class="header-logo">
+                <i class="fa-duotone fa-code"></i>
+                <div class="brand-text">
+                    <span class="text-1">Divinely</span>
+                    <span class="text-2">Developers</span>
+                </div>
+            </div>
+            <button class="header-menu-close" id="header-menu-close">
+                <i class="fa-duotone fa-circle-xmark"></i>
+            </button>
+        </div>
+
+        <div class="header-side-center">
+            <ul class="header-menu">
+                <li class="menu-item"><a href="#">Home</a></li>
+                <li class="menu-item"><a href="#">About</a></li>
+                <li class="menu-item"><a href="#">Skills</a></li>
+                <li class="menu-item"><a href="#">Contact</a></li>
+                <li class="menu-item">
+                    <a>
+                        <label class="theme-switch head_dropdown_item" for="checkbox">
+                            <span class="head_dropdown_item-title">
+                                <span id="appearance">Light mode</span>
+                            </span>
+                            <input type="checkbox" class="checkbox" id="checkbox" hidden />
+                        </label>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="header-side-bottom">
+            <a href="#" class="btn btn-1">Login</a>
+            <a href="#" class="btn btn-2">Create an account</a>
+        </div>
+    </div>
+
+    <!-- * Detachable header Ends -->
+
+
+    <!-- * New content here -->
+
+    <div class="container">
+        <div class="article">
+            <div class="article-title">
+                <h1>About the limitations when making a design
+                </h1>
+            </div>
+            <div class="article-img">
+                <img src="assets/temp.jpg" alt="article-img">
+            </div>
+            <div class="article-details">
+                <hr class="horizontal-divider">
+                <div class="article-detail">
+                    <div class="article-detail-left">
+                        <span>Date</span>
+                    </div>
+                    <div class="article-detail-right">
+                        <span>March 09, 2023</span>
+                    </div>
+                </div>
+                <hr class="horizontal-divider">
+                <div class="article-detail">
+                    <div class="article-detail-left">
+                        <span>Author</span>
+                    </div>
+                    <div class="article-detail-right">
+                        <span>imankitkalirawana</span>
+                    </div>
+                </div>
+                <hr class="horizontal-divider">
+                <div class="article-detail">
+                    <div class="article-detail-left">
+                        <span>Reading Time</span>
+                    </div>
+                    <div class="article-detail-right">
+                        <span>3 minutes</span>
+                    </div>
+                </div>
+                <hr class="horizontal-divider">
+                <div class="article-detail">
+                    <div class="article-detail-left">
+                        <span>Category</span>
+                    </div>
+                    <div class="article-detail-right">
+                        <span>Technology</span>
+                    </div>
+                </div>
+            </div>
+            <div class="article-content">
+                <div class="content" id="content">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis amet non similique voluptatum,
+                    beatae rerum, adipisci aperiam possimus accusantium nihil dolores eligendi harum sunt tempore fuga
+                    corrupti aut! Blanditiis repellat inventore quis. Veniam porro ratione illum dolorem possimus ab
+                    facere dolor officiis et quo. Aperiam, distinctio culpa suscipit, placeat facilis delectus cum ab
+                    nemo expedita aut molestiae eaque praesentium perspiciatis tenetur deleniti, amet in reprehenderit
+                    ipsa neque voluptates! Autem iusto voluptate placeat nam tempora quam eum maiores corrupti! Tenetur
+                    reiciendis, sequi veniam architecto sed quam laudantium, cum id recusandae ducimus voluptatem,
+                    suscipit libero similique optio sint culpa eos porro sunt ab! Harum, quod! Quasi iure voluptas
+                    repudiandae similique excepturi aspernatur nostrum et repellendus cumque corrupti optio libero odit
+                    amet, quod unde quisquam inventore explicabo minima nisi. Corporis quia nesciunt facere sint,
+                    explicabo est deserunt quisquam sunt, porro necessitatibus, minima voluptas aperiam tenetur adipisci
+                    culpa alias dolore veritatis distinctio velit placeat enim atque. Dolores, consectetur. Modi aut
+                    nulla illum doloremque distinctio, saepe molestiae suscipit exercitationem odit rem autem, nostrum
+                    accusantium aperiam veniam earum voluptates numquam dolor quam! Et similique neque nam quas minima.
+                    Distinctio error aspernatur voluptate animi, facilis sint, provident voluptas corporis velit ex et
+                    consequuntur laborum minima? Nesciunt, enim minus natus ipsum cupiditate alias consequuntur ullam
+                    non, quas iste dolor esse commodi corporis nobis at blanditiis pariatur maxime dicta. Quam ea porro
+                    provident obcaecati corporis. Delectus inventore vel aliquid! Fugit voluptate necessitatibus
+                    similique. Doloremque totam accusantium harum quis vel natus molestias officiis modi nisi minus
+                    vero, quo provident, sequi necessitatibus inventore doloribus pariatur fugiat adipisci error ullam
+                    dolorem illum autem minima a. Earum laudantium, corrupti placeat numquam cum facilis alias ullam
+                    ducimus deleniti accusamus officia cupiditate tempora ab in dolore. Voluptate harum voluptatum at
+                    ad, voluptatibus similique! Eaque, asperiores reprehenderit provident quae eos, est at harum ad
+                    recusandae magni maiores nesciunt quia rerum veritatis magnam non. Molestiae libero nobis temporibus
+                    quaerat dolores doloremque quidem qui, veniam, aut iure quas veritatis aliquid animi! Corporis quasi
+                    earum itaque possimus. Dolores odio, facere reprehenderit doloremque aut odit possimus similique,
+                    ratione, ipsa ex illum? Debitis tenetur odit voluptatibus dolorum eius, cupiditate laudantium. Sequi
+                    quae numquam quos officia cupiditate perferendis consequuntur, excepturi dolorum possimus deserunt
+                    in tempore vitae earum repellendus nisi doloremque non delectus veritatis, sed suscipit molestiae
+                    recusandae. Vero assumenda sunt ab aliquid quidem sit eum quam deserunt officia. In quasi quae,
+                    molestias perferendis voluptatem quaerat quia, at quod ab cumque nostrum quo aliquid repellendus
+                    facilis ipsum, natus iste voluptates autem amet dolores voluptate quibusdam culpa maiores! Minus
+                    fuga, unde fugiat earum sed deleniti cumque. Ab sunt soluta quo explicabo atque! Harum laboriosam
+                    doloribus est culpa sint, distinctio minima ullam laborum dignissimos nesciunt praesentium cumque
+                    libero maxime repellat adipisci tempora soluta debitis. Vel laboriosam expedita et delectus
+                    laudantium quaerat fugiat, adipisci, omnis quod fugit voluptates consectetur ratione ipsam culpa
+                    incidunt, perferendis ad libero velit ipsa in quam dolorum dignissimos minus quas. Quibusdam quasi
+                    iste ab praesentium! Optio at, fugiat omnis, et est dolores quo rem consectetur quam, praesentium
+                    ea. Cumque nobis cum modi.
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- * Detachable footer Starts -->
+
+    <footer>
+        <div class="footer-top">
+            <h2 class="footer-main-heading align-center">Welcome to imankitkalirawana</h2>
+            <div class="btns align-center">
+                <a href="#" class="btn btn-1">
+                    Create an account
+                </a>
+                <a href="#" class="btn btn-2 btn-filled">Login</a>
+            </div>
+        </div>
+
+        <div class="footer-middle">
+            <a href="/" class="footer-logo"><i class="fa-duotone fa-code"></i></a>
+            <nav class="footer-navbar" role="navigation" aria-label="Footer Navigation">
+                <ul class="footer-nav-menu-level-1">
+                    <li class="footer-nav-item-level-1">
+                        <span class="footer-nav-menu-heading">Divinely</span>
+                        <ul class="footer-nav-menu-level-2">
+                            <li class="footer-nav-item-level-2">
+                                <a href="#">We vs others</a>
+                            </li>
+                            <li class="footer-nav-item-level-2">
+                                <a href="#">Your data</a>
+                            </li>
+                            <li class="footer-nav-item-level-2">
+                                <a href="#">Help</a>
+                            </li>
+                            <li class="footer-nav-item-level-2">
+                                <a href="#">Privacy Policy</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="footer-nav-item-level-1">
+                        <span class="footer-nav-menu-heading">Pricing</span>
+                        <ul class="footer-nav-menu-level-2">
+                            <li class="footer-nav-item-level-2">
+                                <a href="#">Subscription</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="footer-nav-item-level-1">
+                        <span class="footer-nav-menu-heading">Resources</span>
+                        <ul class="footer-nav-menu-level-2">
+                            <li class="footer-nav-item-level-2">
+                                <a href="#">Developers</a>
+                            </li>
+                            <li class="footer-nav-item-level-2">
+                                <a href="#">Team</a>
+                            </li>
+                            <li class="footer-nav-item-level-2">
+                                <a href="#">Documentation</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="footer-nav-item-level-1">
+                        <span class="footer-nav-menu-heading">Company</span>
+                        <ul class="footer-nav-menu-level-2">
+                            <li class="footer-nav-item-level-2">
+                                <a href="#">About Us</a>
+                            </li>
+                            <li class="footer-nav-item-level-2">
+                                <a href="#">Links</a>
+                            </li>
+                            <li class="footer-nav-item-level-2">
+                                <a href="#">Blogs</a>
+                            </li>
+                            <li class="footer-nav-item-level-2">
+                                <a href="#">Contact Us</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="footer-nav-item-level-1">
+                        <span class="footer-nav-menu-heading">Social</span>
+                        <ul class="footer-nav-menu-level-2">
+                            <li class="footer-nav-item-level-2">
+                                <a href="#">Twitter</a>
+                            </li>
+                            <li class="footer-nav-item-level-2">
+                                <a href="#">LinkedIn</a>
+                            </li>
+                            <li class="footer-nav-item-level-2">
+                                <a href="#">Telegram</a>
+                            </li>
+                            <li class="footer-nav-item-level-2">
+                                <a href="#">Instagram</a>
+                            </li>
+                            <li class="footer-nav-item-level-2">
+                                <a href="#">Github</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="footer-ul">
+                <ul class="footer-bottom-menu">
+                    <li class="footer-bottom-item">
+                        <a href="#">Status</a>
+                    </li>
+                    <li class="footer-bottom-item">
+                        <a href="#">Privacy</a>
+                    </li>
+                    <li class="footer-bottom-item">
+                        <a href="#">Terms</a>
+                    </li>
+                    <li class="footer-bottom-item">
+                        <a href="#">Cookies</a>
+                    </li>
+                    <li class="footer-bottom-item">
+                        <a href="#">Contact</a>
+                    </li>
+                </ul>
+                <ul class="footer-bottom-menu">
+                    <li class="footer-bottom-item">
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    </li>
+                    <li class="footer-bottom-item">
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    </li>
+                    <li class="footer-bottom-item">
+                        <a href="#"><i class="fa-brands fa-github"></i></a>
+                    </li>
+                    <li class="footer-bottom-item">
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-end-credit">
+            <p><i class="fa-regular fa-copyright"></i>
+                <span class="copyright-year">2023</span> Divinely Developers, imankitkalirawana. All rights reserved
+            </p>
+        </div>
+    </footer>
+
+    <script>
+        const currentYear = new Date().getFullYear();
+        document.querySelector('.copyright-year').textContent = currentYear;
+    </script>
+
+
+</body>
+
+</html>

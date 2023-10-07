@@ -1,0 +1,98 @@
+.container {
+    padding-top: 0;
+}
+
+.article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 1000px;
+    margin: auto;
+    background: var(--bg-pure);
+}
+
+.article-title,
+.article-img,
+.article-details {
+    padding: 0 25px;
+}
+
+.article-title h1 {
+    font-size: 5rem;
+    font-family: Outfit;
+    font-weight: 600;
+    line-height: 5.6rem;
+}
+
+.article-img {
+    max-width: 700px;
+    margin: auto;
+    margin-bottom: 100px;
+    padding: 25px;
+
+}
+
+.article-img img {
+    width: 100%;
+    aspect-ratio: 1.63;
+}
+
+.article-details {
+    padding-bottom: 50px;
+}
+
+.article-detail {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.8rem 0;
+}
+
+.article-detail span {
+    font-family: Outfit;
+    color: var(--font-faded);
+    font-size: 1rem;
+}
+
+.article-content {
+    padding: 25px;
+    background: var(--bg-light);
+    padding-top: 80px;
+}
+
+.content {
+    font-size: 20px;
+    font-weight: 200;
+    font-family: 'Outfit';
+    line-height: 2rem;
+    letter-spacing: 0.5px;
+}
+
+@media (max-width: 768px) {
+    .article-title h1 {
+        font-size: 4.3rem;
+        line-height: 5rem;
+    }
+
+    .article-img {
+        margin-bottom: 50px;
+    }
+}
+
+@media (max-width: 512px) {
+    .article-title h1 {
+        font-size: 3.3rem;
+        line-height: 4rem;
+    }
+
+    .article-img {
+        margin-bottom: 25px;
+    }
+}
+
+@media (max-width: 450px) {
+    .article-title h1 {
+        font-size: 2.2rem;
+        line-height: 2.8rem;
+    }
+}

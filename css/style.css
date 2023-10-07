@@ -1,0 +1,169 @@
+.container-main-heading {
+    font-size: 8vw;
+    font-family: Outfit;
+    font-weight: 600;
+    user-select: none;
+}
+
+.container-main-heading h1 {
+    margin: 0;
+}
+
+.font-color {
+    color: var(--primary-color);
+}
+
+.main-content {
+    margin-top: 50px;
+}
+
+.featured {
+    display: flex;
+    justify-content: space-between;
+}
+
+.popular {
+    max-width: 600px;
+    margin: auto;
+}
+
+.featured-child {
+    width: 50%;
+    padding: 1rem;
+}
+
+.row-exp .row-img {
+    max-width: inherit;
+}
+
+.row-exp .row img {
+    margin-top: 1rem;
+}
+
+.row img {
+    width: 100%;
+    aspect-ratio: 1.63;
+}
+
+.row p,
+.row h1,
+.row h2 {
+    margin: 0;
+    font-family: Outfit;
+}
+
+.row p {
+    font-size: 0.75rem;
+    margin: 5px 0;
+    font-weight: 500;
+    line-height: 18px;
+    color: var(--font-faded);
+}
+
+.row h1 {
+    font-weight: 500;
+    font-size: 1.8rem;
+    margin: 5px 0;
+}
+
+
+/* Editor Post */
+
+.editor-post {
+    position: relative;
+}
+
+.row-horizontal .row {
+    display: flex;
+    margin: 1rem 0;
+    align-items: center;
+}
+
+.row-horizontal .row-body {
+    margin-left: 1rem;
+
+}
+
+.row-horizontal .row-title h1 {
+    font-size: 1.2rem;
+    height: 3.6em;
+    line-height: 1.2em;
+    overflow: hidden;
+}
+
+.row-horizontal .row-img {
+    max-width: 150px;
+}
+
+.editor-post .view-more {
+    position: absolute;
+    right: 1rem;
+}
+
+
+/* Latest Post */
+
+.latest-post {
+    padding: 1rem;
+}
+
+.post-container {
+    display: flex;
+    justify-content: center;
+}
+
+
+.latest-post .posts {
+    display: flex;
+    flex-wrap: wrap;
+    grid-gap: 2rem 1rem;
+}
+
+.latest-post .row {
+    flex-basis: 32%;
+}
+
+.latest-post .row h1 {
+    font-size: 1.3rem;
+}
+
+@media (max-width: 964px) {
+    .featured {
+        flex-direction: column;
+    }
+
+    .featured-child {
+        width: inherit;
+    }
+
+    .latest-post .row {
+        flex-basis: 48%;
+    }
+
+    .latest-post .row-title h1 {
+        font-size: 1.1rem;
+    }
+
+}
+
+@media (max-width:768px) {
+    .row-horizontal .row-img {
+        max-width: 150px;
+    }
+
+    .latest-post .row {
+        flex-basis: 100%;
+    }
+
+
+}
+
+@media (max-width:410px) {
+    .row-horizontal .row-img {
+        max-width: 134px;
+    }
+
+    .row-horizontal .row-title h1 {
+        font-size: 0.9rem;
+    }
+}
